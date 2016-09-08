@@ -1,2 +1,5 @@
 # Rock-Paper-Scissors-Lizard-Spock
-Rock Paper Scissors Lizard Spock game
+
+Silly Rock Paper Scissors Lizard Spock game
+
+used JavaScirpt, HTML, CSS
