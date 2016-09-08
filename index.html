@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+        <meta name="author" content="Anton Merezko 144114IATM">
+        <link rel="shortcut icon" href="img/favicon.ico" />	
+        <link rel="stylesheet" href="style.css"> 
+		<title>Rock-Paper-Scissors-Lizard-Spock</title>
+	</head>
+    
+    <body>
+        <header>
+			<h1>Rock, Paper, Scissors, Lizard, Spock</h1>
+		</header>
+        <div class="rules"> 
+            <p id="back">Back to game</p>
+            <img src="img/rules.png"/>
+            <p>Scissors cuts Paper<br>
+                Paper covers Rock<br>
+                Rock crushes Lizard<br>
+                Lizard poisons Spock<br>
+                Spock smashes Scissors<br>
+                Scissors decapitates Lizard<br>
+                Lizard eats Paper<br>
+                Paper disproves Spock<br>
+                Spock vaporizes Rock<br>
+                Rock crushes Scissors
+            </p>
+        </div>
+        <div class="mainwrap">
+            <p>Forgot the rules? <b id="rules">Read here</b></p>
+            <div class="weapons">
+                <h3>Make your choice!</h3>
+                <div class="imgwrap">
+                    <div class="weapon" id="rock"></div>
+                    <div class="weapon" id="paper"></div>
+                    <div class="weapon" id="scissors"></div>
+                    <div class="weapon" id="lizard"></div>
+                    <div class="weapon" id="spock"></div>
+                </div>
+            </div>
+            <div class="choseRounds">
+                <h3>Choose rounds:
+                    <input class="newGame" type="radio" name="rounds" value="11">11</input>
+                    <input class="newGame" type="radio" name="rounds" value="21">21</input>
+                    <b class="newGame" id="newGame" >New Game</b>
+                </h3>
+            </div>
+            <div class="main">
+                <div class="info" id="playerMove">
+                    <h2>Your choice</h2>
+                     <img id="playerChoice" src="img/nochoice.png"/> 
+                </div>
+                <div class="info" id="scoreField">
+                        <div class="roundField">
+                            <h3>Round:
+                            <b id="round">0</b>
+                                 (of <b id="rounds">11</b>)</h2>
+                        </div>
+                        <div class="scoreField">
+                            <h3>Score:</h3>
+                            <b id="playerScore">0</b>
+                            <b> : </b>
+                            <b id="computerScore">0</b>
+                        </div>
+                        <h2 id="state">Start GAME!</h2>
+                </div>
+                <div class="info" id="computerMove">
+                    <h2>Computer Choice</h2>
+                    <img id="computerChoice" src="img/nochoice.png"/>
+                </div>
+            </div>
+        </div>
+        <div class="signature">
+            <div>Team Exploit</div>
+            <div>Tallinn, 2016</div>
+        </div>
+        <a target="_blank" href="https://www.youtube.com/watch?v=fqlDc2VICZ0"><img src="img/sheldon.png" class="sheldon" /></a>
+    </body>
+
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="game.js"></script>
+
+
+    

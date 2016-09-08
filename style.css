@@ -1,0 +1,116 @@
+body {
+    background: #1E8BC3;
+    color: white;
+    font-family: Track;  
+	margin: 0;
+	padding: 0;
+    text-align: center;
+    
+}
+header {
+    background: #2C3E50;
+    padding: 1rem;
+}
+.weapons{
+    padding: 1rem;
+}
+.weapon {
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    display: inline-block;
+}
+#computerChoice,#playerChoice{
+    width: 160px;
+}
+#rock {
+    background: url(img/rock.png) no-repeat 0 0;
+    background-size: contain;
+}
+#rock:hover {
+    background: url(img/rockHov.png) no-repeat 0 0;
+    background-size: contain;
+}
+#paper {
+    background: url(img/paper.png) no-repeat 0 0;
+    background-size: contain;
+}
+#paper:hover {
+    background: url(img/paperHov.png) no-repeat 0 0;
+    background-size: contain;
+}
+#scissors {
+    background: url(img/scissors.png) no-repeat 0 0;
+    background-size: contain;
+}
+#scissors:hover {
+    background: url(img/scissorsHov.png) no-repeat 0 0;
+    background-size: contain;
+}
+#lizard {
+    background: url(img/lizard.png) no-repeat 0 0;
+    background-size: contain;
+}
+#lizard:hover {
+    background: url(img/lizardHov.png) no-repeat 0 0;
+    background-size: contain;
+}
+#spock {
+    background: url(img/spock.png) no-repeat 0 0;
+    background-size: contain;
+}
+#spock:hover {
+    background: url(img/spockHov.png) no-repeat 0 0;
+    background-size: contain;
+}
+    
+}
+.main {
+    padding: 1rem;
+}
+.info{
+    width:33.33333%;
+    float:left;
+}
+.scoreField{
+    padding:1rem;
+}
+.roundField{
+    padding:1rem;
+}
+#state{
+    padding:1rem;
+    margin:0;
+}
+h3{ 
+    margin:0;
+}
+.signature{
+    padding:1rem;
+    color:#6BB9F0;
+    font-size: 12px;
+}
+#newGame,#rules,#back{
+    text-decoration: underline; 
+    cursor: pointer;
+}
+#newGame:hover,#rules:hover,#back:hover{
+    color:#6BB9F0;
+}
+
+.sheldon {
+    display: block;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width:100px;
+}
+.rules{
+    display: none;
+}
+.rules img{
+    width: 300px;
+}
+
+@font-face { font-family: Track; src: url('font/OTF files/Track.otf'); } 
+@font-face { font-family: Track; font-weight: italic; src: url('font/OTF files/Track Italic.otf'); }
