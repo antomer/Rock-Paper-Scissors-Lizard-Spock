@@ -1,6 +1,5 @@
 var playerScore = 0, computerScore = 0, rounds=11;
 var round = computerScore+playerScore;
-#typeo
 $(document).ready(function(){ 
     
     $('.weapon').click(function (){
